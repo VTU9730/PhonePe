@@ -1,11 +1,11 @@
 
 #phonePay_logo{
-    height:80px;
+    height:40px;
 }
 .navbar{
     position:sticky;
     top:0;
-    background-color: rgb(190, 120, 236);
+    background-color: white;
     z-index: 1;
     margin-bottom: 30px;
 }
@@ -29,10 +29,10 @@
 .carousel-caption>.btn{
     border-radius: 60px;
 }
-.second h2,p{
+.second >h2,p{
     color:rgb(137, 44, 224);
 }
-.second .btn{
+.second >.btn{
     background-color:rgb(137, 44, 224);
     border: none;
 }
@@ -42,7 +42,7 @@
 .third p{
     color: rgb(109, 19, 184);
 }
-.btn-primary{
+#carousel .btn-primary{
     background-color: rgb(109, 19, 184);
 }
 /* Cards */
@@ -91,4 +91,116 @@
 }
 .text{
     margin-top: 60px;
+}
+/* logo and text images */
+#images{
+    text-align: center;
+}
+#text-img{
+    width:400px;
+    margin: 20px 0;
+}
+#logo{
+    width:150px;
+    margin: 20px 0;
+}
+#images >button{
+    color: #361374;
+    border: solid 1px #361374;
+    border-radius: 30px;
+    padding: 5px 25px;
+}
+#images button:hover{
+    color:white;
+    background-color: #361374;
+}
+.text{
+    color:black;
+}
+.text >span{
+    color: #6b35a9;
+}
+/* certificate */
+#certificate{
+    background-color:#967edd;
+    text-align: center;
+    border-radius: 40px;
+}
+#certificate p{
+    color: white; 
+    margin: 40px 0;  
+}
+#certificate h1{
+    color: white;
+    padding-top: 70px;
+}
+#certificate img{
+    width:100px;
+    margin: 30px 30px 20px 0;
+}
+#partner{
+    text-align: center;
+    color: #4f198d;
+}
+#partner h1{
+    margin: 30px 0;
+}
+#partner >.btn{
+    border-radius: 20px;
+    padding: 10px 25px;
+    background-color: #07c3de;
+    color: white; 
+    margin: 30px auto 50px auto ;
+}
+#partner img{
+    width:100%;
+}
+/* sales */
+.sales img{
+    width:100%;
+    height: 100%;
+}
+.switch{
+    display: flex;
+    justify-content:space-between;
+}
+/* users */
+#users{
+    background-color: #967edd;
+    padding: 60px 0 0;
+    background-color: #967edd;
+}
+#users img{
+    width:100%;
+    height:300px;
+    opacity: 0.4;
+}
+#users p{
+    color: #dcd3ff;
+}
+#users h2{
+    color:white;
+}
+.display{
+    display: flex;
+    justify-content: space-around;
+}
+/* footer */
+#footer{
+    display:flex;
+    justify-content:space-around;
+    margin: 30px 0;
+}
+#footer img{
+    width:100px
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start
+}
+.footer-item a{
+    text-decoration: none;
+    color: #000;
+    margin: 5px 0;
 }
